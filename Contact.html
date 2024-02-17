@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="maincss.css">
+    <script type="text/javascript" src="jquery.js"></script>
+    <head>
+        <title> Contact Us </title>
+        <meta charset="utf-8">
+        
+    </head>
+    <header>
+        <style>
+            h1 {text-align: center; 
+                text-decoration: overline;}
+               /* .mydiv border: 5px outset black; background-color: rgb(144, 184, 36);}*/
+            h2{text-align: center;
+                }
+            button {
+             background-color: white;
+             color: black;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+             font-weight: bold;
+             padding: 10px 24px;
+            font-size: 12px;
+             cursor: pointer;
+             text-align: center;
+            border-radius: 15%;
+             bottom: 10%;
+            right: 10%;
+    }
+    table {margin-left: auto;
+    margin-right: auto;
+    }
+    footer {text-align: center;
+            padding: 20px;
+            }
+            footer ul{text-align: left;}
+    footer li{color: black;}   
+    table td {color: white;}            
+        </style>
+    
+    <div class="head-display" id="head-display">
+   
+        <br>
+        <br>
+        <h1> Quest Marketplace </h1>
+        <br>
+        <br>
+        <br>
+    </div>
+  
+    <h2>
+        <nav>
+        <ul>
+                                            <button onclick="window.location.href= 'Marketplace.html'"> Home </button>
+           &nbsp; &nbsp; &nbsp; &nbsp;      <button onclick="window.location.href= 'Shop.html'"> Shop </button>
+           &nbsp; &nbsp; &nbsp;             <button onclick="window.location.href= 'Profile.html'"> Profile </button>
+           &nbsp; &nbsp; &nbsp;             <button onclick="window.location.href= 'Categories.html'"> Categories </button>
+           &nbsp; &nbsp; &nbsp;             <button onclick="window.location.href= 'Leaderboard.html'"> Leaderboard </button>
+    
+        </ul>
+        </nav>
+    </h2>
+    
+    <br>
+    
+    <body>
+
+        <h2> Contact Us </h2>
+    
+    <br>
+    <hr color="white">
+    <br>
+    <table border="5px">
+        <tr>
+            <td> Company Email:</td>
+            <td> questmarketplace@gmail.com</td>
+        </tr>
+        <tr>
+            <td> Company Phone:</td>
+            <td> (289)-655-9087</td>
+        </tr>
+        <tr>
+            <td> Company Hours:</td>
+            <td> 8am - 5pm (Monday to Friday)</td>
+        </tr>
+    </table>
+<br>
+<form id="contact">
+<table>
+    <tr>
+        <td><label for="email"><b> Email Address: </b></label> </td>
+        <td><input type="email" id="email" placeholder="Email"> </td>
+    </tr>
+    <tr>
+        <td><label for="fname"><b>First Name: </b> </label></td>
+        <td><input type="text" id="fname" name="fname" placeholder="First Name"></td>
+    </tr>
+    <tr>
+        <td><label for="lname"><b> Last Name: </b></label> </td>
+        <td><input type="text" id="lname" name="lname" placeholder="Last Name"> </td>
+    </tr>
+    <br>
+    <tr>
+       <td> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;<input type="submit" value=Submit> </td>;
+              <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;<input type="reset" name="btnreset" value="Reset"> </td>
+    </tr>
+</table>
+</form>
+<script>
+$("document").ready(function(){
+  $("#head-display").hide();
+  $("#head-display").show("slow");
+    
+  $("#contact").submit(function(event){
+
+    let email = $("#email").val();
+    let fname = $("#fname").val();
+    let lname = $("#lname").val();
+
+    if (email == "" || fname == "" || lname == ""){
+        alert("Please fill in all available fields.");
+        event.preventDefault;
+    }
+    else {
+        alert("Success! one of our customer servce reps will email you shortly.");
+    }
+
+    });
+});
+
+</script>
+    
+
+</body>
+<br>
+<br>
+<br>
+<footer>
+    <h1> Quest Marketplace &trade;</h1>
+    <br>
+    <br>
+    <ul>
+        <li><a href="privacy.html"> Privacy Policy </a> </li>
+        <li><a href="Contact.html"> Contact Us </a> </li>
+    </ul>
+    <br>
+    <logo id="logo"><img src="quest.jpeg" height="100" width="100"> </logo>
+    </footer>
+</html>

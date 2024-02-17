@@ -1,0 +1,157 @@
+html {
+  margin: 2%;
+  padding: 2%;
+  border: 15px solid black;
+  border-style: double;
+  border-radius: round;
+  background-image: linear-gradient(rgb(80, 132, 16), navy, rgb(220, 166, 48));
+}
+h1 {
+  text-align: center;
+  text-decoration: overline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 white;
+  font-size: 300%;
+}
+/*.mydiv {border: 5px outset black; background-color: black;
+    width: 100%;}*/
+
+ul {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -0.5px -0.5px 0 white;
+  font-size: 175%;
+}
+p {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+}
+button {
+  background-color: #000000;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px 24px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5%;
+  bottom: 25%;
+  right: 25%;
+}
+button:hover {
+  background-color: rgb(80, 132, 16);
+}
+/*.mydiv2 {border: 5px outset black; 
+     background-color: rgb(144, 184, 36);
+     width: 100%;
+     
+    
+    }
+.myDiv3 {border: 5px outset black;
+    background-color: rgb(144, 184, 36);
+    width: 100%;}*/
+
+img {
+  border: 5px outset black;
+}
+p {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 white;
+  font-size: 200%;
+}
+.survey {
+  margin-left: auto;
+  margin-right: auto;
+}
+footer ul {
+  text-align: left;
+}
+footer li {
+  color: black;
+}
+
+img:hover {
+  background-color: gray;
+}
+.mydiv2 h3 {
+  text-align: center;
+  text-decoration: overline;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: -0.5px -0.5px 0 white;
+  font-size: 200%;
+}
+table b {
+  color: white;
+}
+article {
+  border: 2px dashed black;
+  border-radius: 4px;
+  box-shadow: 2px 2px black;
+  padding: 3%;
+}
+article:hover {
+  background-color: white;
+}
+.upright {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px dotted black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1%;
+  width: 10%;
+  font-size: larger;
+}
+.upright:hover {
+  background-color: white;
+}
+.talents {
+  margin-left: auto;
+  margin-right: auto;
+}
+.uprightt {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px dotted black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1%;
+  width: 10%;
+  font-size: larger;
+  float: left;
+}
+.uprightt:hover {
+  background-image: linear-gradient(blue, white, green);
+}
+.uprighttt {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px dotted black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1%;
+  width: 10%;
+  font-size: larger;
+  float: right;
+}
+.uprighttt:hover {
+  background-image: linear-gradient(blue, white, green);
+}
+nav {
+  border: 5px solid black;
+  border-radius: 4px;
+  box-shadow: 1px 1px white;
+}

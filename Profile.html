@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="maincss.css" />
+  <script type="text/javascript" src="jquery.js"></script>
+  <head>
+    <title>Quest Marketplace</title>
+    <meta charset="utf-8" />
+    <style>
+      /*.mydiv {border: 5px outset black; background-color: rgb(144, 184, 36);}*/
+      h1 {
+        text-align: center;
+        text-decoration: overline;
+      }
+      button {
+        background-color: white;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        padding: 10px 24px;
+        font-size: 12px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 15%;
+        bottom: 10%;
+        right: 10%;
+      }
+      ul {
+        text-align: center;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+      }
+      footer ul {
+        text-align: left;
+      }
+      footer li {
+        color: black;
+      }
+      .divo {
+        font-size: 200%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: -1px -1px white;
+        border: 5px solid black;
+        border-style: solid;
+        box-shadow: -1px -1px white;
+        padding: 3%;
+        background-image: linear-gradient(  rgb(103, 103, 171),white, rgb(6, 178, 178));
+      }
+      /*.new{border: 5px outset black; background-color: rgb(144, 184, 36);}*/
+    </style>
+  </head>
+  <div class="head-display" id="head-display">
+   
+    <br>
+    <br>
+    <h1> Quest Marketplace </h1>
+    <br>
+    <br>
+    <br>
+</div>
+
+  <h2>
+      <nav>
+      <ul>
+                                          <button onclick="window.location.href= 'Marketplace.html'"> Home </button>
+         &nbsp; &nbsp; &nbsp; &nbsp;      <button onclick="window.location.href= 'Shop.html'"> Shop </button>
+         &nbsp; &nbsp; &nbsp;             <button onclick="window.location.href= 'Profile.html'"> Profile </button>
+         &nbsp; &nbsp; &nbsp;             <button onclick="window.location.href= 'Categories.html'"> Categories </button>
+         &nbsp; &nbsp; &nbsp;             <button onclick="window.location.href= 'Leaderboard.html'"> Leaderboard </button>
+  
+      </ul>
+      </nav>
+  </h2>
+  <br>
+  <script type="text/javascript">
+    $("document").ready(function(){
+        $("#head-display").hide();
+        $("#head-display").show("slow");
+
+    })
+  </script>
+
+  <!-- <div class="new"> -->
+  <br />
+  <br />
+  <br />
+  <h2 class="divo">Better Understanding of Services</h2>
+  <!-- </div> -->
+  <br />
+  <br />
+  <br />
+  <hr color="white" />
+
+  <br />
+
+  <br />
+  <hr color="white" />
+  <table>
+    <tr>
+      <td class="cate">
+        <br />
+        <div class="img-with-text">
+          <h3>Carpentry</h3>
+
+          <img src="carpentry.jpeg" height="400" width="400" /> <br />
+          <b>
+            At CustomCarve, we can design different items and there's also items
+            in our shop from our featured carpenters<br />
+            <br />
+            <button onclick="location.href = 'Shop.html';">Shop Now</button><br
+          /></b>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+      </td>
+
+      <td>
+        <div class="img-with-text">
+          <h3>Art</h3>
+
+          <img src="turtleart.jpeg" height="400" width="400" /> <br />
+          <b>
+            At CanvasCraft, we got plenty of different art pieces from our
+            featured artists<br />
+            <br />
+            <button onclick="location.href = 'Shop.html';">Shop Now</button><br
+          /></b>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       
+      </td>
+
+      <td>
+        <div class="img-with-text">
+          <h3>Photography</h3>
+
+          <img src="photography.jpeg" height="400" width="400" /> <br />
+          <b>
+            At FrameFocus, we can set up different photoshoots varying from
+            events such as weddings or movies from our featured photographers<br />
+            <br />
+            <button onclick="location.href = 'Shop.html';">Shop Now</button
+            ><br />
+          </b>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <hr color="white" />
+  <table>
+    <tr>
+      <td>
+        <br />
+        <h3>Teacher</h3>
+        <div class="img-with-text">
+          <img src="teaching.jpeg" height="400" width="400" /> <br />
+          <b>
+            At MentorMinds, we offer different programs depending on what you
+            like to learn. Fees will vary depending on the program you choose<br />
+            <br />
+            <button onclick="location.href = 'Contact.html';">
+              Contact us for more details</button
+            ><br
+          /></b>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       
+      </td>
+
+      <td>
+        <h3>Film Maker</h3>
+        <div class="img-with-text">
+          <img src="editing.webp" height="400" width="400" /> <br />
+          <b>
+            At VisionVault Studios, we can edit any type of video, using
+            different visuals, sound effects<br />
+            <br />
+            <button onclick="location.href = 'Contact.html';">
+              Contact us for more details</button
+            ><br
+          /></b>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       
+      </td>
+
+      <td>
+        <h3>Designer</h3>
+        <div class="img-with-text">
+          <img src="designers.jpeg" height="400" width="400" /> <br />
+          <b>
+            At DesignDynasty, we are able to design different things like
+            websites, illustrations, motion graphics <br />
+            <br />
+            <button onclick="location.href = 'Contact.html';">
+              Contact us for more details</button
+            ><br
+          /></b>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <br />
+  <hr color="white" />
+  <br />
+  <table>
+    <tr>
+      <td>
+        <br />
+        <h3>Programmer</h3>
+        <div class="img-with-text">
+          <img src="programmer.jpeg" height="400" width="400" /> <br />
+          <b>
+            At ZenScript, we create different programs such as applications,
+            websites, softwares<br />
+            <br />
+            <button onclick="location.href = 'Contact.html';">
+              Contact us for more details</button
+            ><br
+          /></b>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+      </td>
+
+      <td>
+        <div class="img-with-text">
+          <h3>Financial Accountant</h3>
+
+          <img src="account.jpeg" height="400" width="400" /> <br />
+          <b>
+            At TrueLine Finance, we help organize and maintain accurate
+            financial records and provide financial advice<br />
+            <br />
+            <button onclick="location.href = 'Contact.html';">
+              Contact us for more details</button
+            ><br
+          /></b>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     
+      </td>
+
+      <td>
+        <h3>Music Creator</h3>
+        <div class="img-with-text">
+          <img src="music.jpeg" height="400" width="400" /> <br />
+          <b>
+            At Flow Productions, we help you find your beat. There's plenty of
+            genres to look through including Hip Hop, R&B, Pop, Classical
+            <br />
+            <br />
+            <button onclick="location.href = 'Contact.html';">
+              Contact us for more details</button
+            ><br
+          /></b>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <br />
+  <br />
+  <br />
+  <hr color="white" />
+  <footer>
+    <h1>Quest Marketplace &trade;</h1>
+    <br />
+    <br />
+    <ul>
+      <li><a href="privacy.html"> Privacy Policy </a></li>
+      <li><a href="Contact.html"> Contact Us </a></li>
+    </ul>
+    <br />
+    <logo id="logo"><img src="quest.jpeg" height="100" width="100" /> </logo>
+  </footer>
+</html>
